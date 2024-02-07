@@ -1,0 +1,128 @@
+{
+    "usuarios": {
+        "eladio1": {
+            "rol": 1,
+            "contrasena": "1234"
+        },
+        "eladio2": {
+            "rol": 2,
+            "contrasena": "1234"
+        }
+    },
+    "ficheros": {
+        "F1": {
+            "nombre": "Doc1",
+            "extension": "txt",
+            "tama\u00f1o": "5",
+            "fecha_creacion": "7/2/2024",
+            "fecha_modificacion": "7/2/2024",
+            "contenido": "Contenido 1"
+        },
+        "F2": {
+            "nombre": "Doc2",
+            "extension": "txt",
+            "tama\u00f1o": "10",
+            "fecha_creacion": "7/2/2024",
+            "fecha_modificacion": "7/2/2024",
+            "contenido": "Contenido 2"
+        },
+        "F3": {
+            "nombre": "Doc3",
+            "extension": "doc",
+            "tama\u00f1o": "21",
+            "fecha_creacion": "7/2/2024",
+            "fecha_modificacion": "7/2/2024",
+            "contenido": "Contenido 3"
+        },
+        "F4": {
+            "nombre": "Doc4",
+            "extension": "txt",
+            "tama\u00f1o": "11",
+            "fecha_creacion": "7/2/2024",
+            "fecha_modificacion": "7/2/2024",
+            "contenido": "Contenido 4"
+        },
+        "F5": {
+            "nombre": "Doc5",
+            "extension": "doc",
+            "tama\u00f1o": "17",
+            "fecha_creacion": "7/2/2024",
+            "fecha_modificacion": "7/2/2024",
+            "contenido": "Contenido 5"
+        },
+        "F6": {
+            "nombre": "Doc6",
+            "extension": "txt",
+            "tama\u00f1o": "14",
+            "fecha_creacion": "7/2/2024",
+            "fecha_modificacion": "7/2/2024",
+            "contenido": "Contenido 6"
+        },
+        "F7": {
+            "nombre": "Doc7",
+            "extension": "doc",
+            "tama\u00f1o": "31",
+            "fecha_creacion": "7/2/2024",
+            "fecha_modificacion": "7/2/2024",
+            "contenido": "Contenido 7"
+        }
+    },
+    "unidades": {
+        "D": {
+            "nombre": "U1",
+            "capacidad_total": "500000",
+            "espacio_disponible": "500000",
+            "lista_carpetas": [
+                "C2", "C4"
+            ],
+            "tipo_unidad": "SSD"
+        },
+        "C": {
+            "nombre": "U2",
+            "capacidad_total": "40000",
+            "espacio_disponible": "40000",
+            "lista_carpetas": [
+                "C1", "C3"
+            ],
+            "tipo_unidad": "HDD"
+        }
+    },
+    "carpetas": {
+        "C1": {
+            "nombre": "Carpeta 1",
+            "fecha_creacion": "7/2/2024",
+            "tamano_total": "40",
+            "lista_ficheros": [
+                "F1", "F2"
+            ],
+            "lista_carpetas": []
+        },
+        "C2": {
+            "nombre": "Carpeta 2",
+            "fecha_creacion": "7/2/2024",
+            "tamano_total": "60",
+            "lista_ficheros": [
+                "F3"
+            ],
+            "lista_carpetas": []
+        },
+        "C3": {
+            "nombre": "Carpeta 3",
+            "fecha_creacion": "7/2/2024",
+            "tamano_total": "20",
+            "lista_ficheros": [
+                "F4", "F5", "F7"
+            ],
+            "lista_carpetas": []
+        },
+        "C4": {
+            "nombre": "Carpeta 4",
+            "fecha_creacion": "7/2/2024",
+            "tamano_total": "35",
+            "lista_ficheros": [
+                "F6"
+            ],
+            "lista_carpetas": []
+        }
+    }
+}
